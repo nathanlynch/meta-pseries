@@ -1,0 +1,5 @@
+This README file contains information on the contents of the meta-pseries
+BSP layer, which supports PowerVM logical partitions (LPARs) and KVM on
+Power guests, collectively known by the historical platform name "pseries."
+
+This layer has no dependencies beyond OE's core layer.
