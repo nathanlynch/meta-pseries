@@ -62,7 +62,7 @@ KCONFIG_MODE="--alldefconfig"
 SRC_URI += "file://defconfig"
 
 LINUX_VERSION ?= "5.11"
-LINUX_VERSION_EXTENSION_append = "-custom"
+LINUX_VERSION_EXTENSION:append = "-custom"
 
 # Modify SRCREV to a different commit hash in a copy of this recipe to
 # build a different release of the Linux kernel.
